@@ -1,0 +1,194 @@
+<html>
+    <body>
+      <div class="nav-wrapper" style = "background-color: #474e5d;"> 
+        <div class="left-side"> 
+            <div class="nav-link-wrapper">
+                <a href="http://localhost:2000/index.html">Home</a>
+            </div>    
+            <div class="nav-link-wrapper">
+                <a href="http://localhost:2000/faq.html">FAQ</a>
+            </div>    
+            <div class="nav-link-wrapper">
+                <a href="http://localhost:2000/about.html">About Us</a>
+            </div>
+            <div class="nav-link-wrapper">
+                <a href="http://127.0.0.1:3000">LOG IN</a>
+            </div>
+            <div class="nav-link-wrapper">
+                <a href=" http://127.0.0.1:3000">SIGN UP</a>
+            </div>
+        </div>
+        <div class="right-side">
+          <div class="brand">
+            <img src = "/images/logo.png" style="height:70px">
+          </div>
+        </div>
+    </div>
+    
+    <div class="about-section">
+  <h1>About Us Page</h1>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/images/faces/avani.jpg" alt="Avani" style="width:100%">
+      <div class="container">
+        <h2>Avani Jain</h2>
+        <p class="title">PES2UG20CS077</p>
+        
+        <p>avani10jain@gmail.com</p>
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/images/faces/ashritha.jpg" alt="Ashritha" style="width:100%">
+      <div class="container">
+        <h2>Ashritha Dara</h2>
+        <p class="title">PES2US20CS099</p>
+        <p>daraashritha0703@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/images/faces/deepti.jpg" alt="Deepti" style="width:100%">
+      <div class="container">
+        <h2>Deepti Shanbhag</h2>
+        <p class="title">PES2UG20CS105</p>
+        <p>shanbhxg@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/images/faces/dishitha.jpeg" alt="Dishitha" style="width:100%">
+      <div class="container">
+        <h2>Dishitha Mahendrakar</h2>
+        <p class="title">PES2UG20CS112</p>
+        <p>dishitha18@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+<style>body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    height: 350px;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+
+  .nav-wrapper {
+    display : flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side {
+    display: flex;
+}
+
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottomm 0.5s;
+}
+
+.nav-link-wrapper a {
+    color : #ffffff;
+    text-decoration : none;
+    transition : color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 3px solid rgb(0, 195, 255);
+}
+
+.nav-link-wrapper a:hover {
+    color : rgb(1, 124, 133);
+}
+
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  </style>
+
+</body>
+</html>
